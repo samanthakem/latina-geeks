@@ -24,13 +24,22 @@ li {
   list-style: square;
 }
 
+#msg {
+  font-family: monospace;
+}
+
 .light-theme {
   --bg: var(--green);
   --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
 }
+
 .dark-theme {
   --bg: var(--black);
   --fontColor: var(--green);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
 }
 
 .btn {
